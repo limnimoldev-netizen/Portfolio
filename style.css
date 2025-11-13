@@ -20,6 +20,8 @@ body{
     width: 100%;
     align-items: center;
     justify-content: center;
+    /* position: sticky; */
+    /* position: fixed; */
     /* padding: 16px; */
     
 }
@@ -93,7 +95,7 @@ section {
    justify-content: space-around;
    align-items: center;    
    margin-top: 5%; 
-   background-color: rgb(24, 38, 101);
+   /* background-color: rgb(24, 38, 101); */
 }
 #aboutMe{
    width: 50%;
@@ -305,11 +307,11 @@ img{
 .soft{
    color: white;
    background-color: #14273A;
-   padding: 30px;
+   padding: 37px;
    border-radius: 5%;
-   margin-bottom: 30px;
+   margin-bottom: 27px;
    height: 395px;
-   width: 530px;
+   width: 523px;
 } 
 .soft a{
    color: white;
@@ -324,12 +326,12 @@ img{
 }
 .hard{
    background-color: #14273A;
-   padding: 30px;
+   padding: 86px;
    border-radius: 5%;
-   margin-left: 80px;
-   /* margin-bottom: 30px; */
+   margin-left: 25px;
+   margin-bottom: 35px;
    /* height: 450px; */
-   width: 505px;
+   width: 388px;
    /* justify-content: space-between; */
 }
 .hard a img{
@@ -343,7 +345,6 @@ img{
    object-fit: cover;
    /* margin: auto; */
    margin-left: 70px;
-
 }
 .hard p{
    font-size:40px ;
@@ -359,6 +360,7 @@ img{
    margin-bottom: 10px;
    text-align: center;
    font-size: 15px;
+   color: white;
 }
 #project h1{
    font-size: 20px;  
@@ -389,6 +391,7 @@ img{
 .text-a{
    display: flex;
    text-align: center;
+   
 }
 .text-a span{
    color: #1ABCFE;
@@ -398,9 +401,9 @@ img{
    width: 250px;
    display: flex;
 }
-.contact{
+/* .contact{
    width: 100%;
-   background-color: rgb(14, 92, 66);
+   background-color: rgb(92, 82, 14);
 }
 .contact h1{
    font-size: 20px;
@@ -421,14 +424,14 @@ img{
    color: #1ABCFE;
    margin: 0;
     margin-left: 90px;
-}
-.box-pp{
-   width: 100%;
+} */
+/* .box-pp{ */
+   /* width: 100%; */
    /* color: chartreuse; */
-   display: flex;
-   justify-content: center;
-}
-.btn{
+   /* display: flex; */
+   /* justify-content: center; */
+/* } */
+/* .btn{
    text-decoration: none;
    background-color: #1F5B9D;
    margin-left: 370px;
@@ -467,8 +470,8 @@ color: rgb(159, 159, 159);
    font-size: 18px;
    margin: 0;
 
-}
-.box-pp2 h2{
+} */
+/* .box-pp2 h2{
    color: rgb(141, 140, 140);
    font-size: 16px;
    margin:0;
@@ -499,4 +502,148 @@ margin-bottom: 10px;
    margin:0;
    margin-bottom: 10px;
 
+} */
+.section-contact{
+   /* background-color: aquamarine; */
+   width: 80%;
+   margin: auto;
+}
+.fill-email{
+   /* background-color: burlywood; */
+   display: flex;
+   justify-content: space-around;
+}
+.box-pp{
+   /* background-color: darkgray; */
+   width: 50%;
+}
+.box-pp input{
+   background-color: #14273A;
+   border-radius: 5px;
+   padding: 15px 70px;
+   font-size: 16px;
+   margin-bottom: 10px;
+   border: none;
+}
+.box-pp2{
+   background-color: #14273A;
+   border-radius: 5%;
+   padding: 20px 50px;
+   margin-left: 50px;
+   
+   
+}
+.box-pp2 h1{
+   color: white;
+   font-size: 18px;
+   margin: 0;
+
+} 
+ .box-pp2 h2{
+   color: rgb(141, 140, 140);
+   font-size: 16px;
+   margin:0;
+   margin-bottom: 10px;
+
+}
+.box-pp2 h3{
+   color: white;
+   font-size: 18px;
+   margin: 0;
+
+}
+.box-pp2 h4{
+   color: rgb(141, 140, 140);
+   font-size: 14px;
+   margin: 0;
+
+}
+.box-pp2 h5{
+color: rgb(141, 140, 140);
+margin: 0;
+margin-bottom: 10px;
+
+}
+.box-pp2 h6{
+   color: white;
+   font-size: 18px;
+   margin:0;
+   margin-bottom: 10px;
+
+}
+.client_box{
+   display: flex ;
+   justify-content: space-around;
+   /* margin-top: 5%; */
+   /* background-color: coral; */
+   width: 80%;
+   margin: auto;
+   
+   
+}
+.client{
+   /* background-color: aqua; */
+   text-align: center;
+   margin-bottom: 2%;
+}  
+.box-img{
+   width: 20%;
+   height: 450px;
+   /* background-color: green; */
+   border-radius: 50%;
+}
+.box-img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 50%;
+
+}
+.client-feedback{
+   width: 70%;
+   height: 350px;
+   /* background-color: burlywood; */
+   text-align: start;
+   font-size: 23px;
+   padding: 40px;
+   color: white;
+}
+.client-name{
+   margin-top:10% ;
+}
+.award-certificate{
+   /* background-color: rgb(255, 127, 221); */
+   display: flex;
+   width: 50%;
+   justify-content: space-around;
+
+}
+.awards{
+   /* background-color: aqua; */
+   text-align: center;
+   margin-bottom: 5%;
+}
+
+.award-img{
+   width: 60%;
+   height: 250px;
+   /* background-color: green; */
+}
+.award-img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+}
+.award-info{
+   text-align: start;
+   padding: 20px;
+   width: 70%;
+   /* background-color: cadetblue; */
+}
+.certificate{
+   display: flex;
+   width: 80% ;
+   margin: auto;
+   
 }
